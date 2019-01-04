@@ -1,0 +1,180 @@
+body{
+    background-image:url("../background\ .jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+#introduce{
+    text-align:left
+}
+
+#schedule1{
+    text-align:left
+}
+
+#schedule2{
+    text-align:left
+}
+
+#suisen{
+    color:#ff4500;
+}
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+#introduce{
+    text-align:left
+}
+
+.calendar_explain{
+    margin-top:20px;
+    text-align:left;
+    font-size:20px;
+    color:#0e00b0;
+}
+
+.add_calendar{
+    text-align: left;
+    margin-left: 5px;
+}
+
+.cal_wrapper {
+  max-width: 800px;
+  min-width: 200px;
+  margin: 2.0833% auto;
+}
+ 
+.googlecal {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+  overflow: hidden;
+}
+
+.googlecal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+ 
+table.contents{
+    margin: 0 auto;
+    width: 94%
+}
+
+#suisen{
+    color:#ff4500;
+}
+
+.date{
+    width:50px;
+    text-align:center;
+}
+
+.month{
+    color:#ff8000;
+    font-size: 30px;
+}
+
+
+.information{
+    margin-bottom: 20px;
+    text-align:left;
+}
+
+.menu{
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+u{
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 350px){
+    .calendar_explain{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    #introduce{
+        margin-left: 1%;
+    }
+    
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    .date {
+        width: 110px
+    }
+
+    .add_calendar{
+        margin-left: 10%;
+    }
+
+    
+}
+
+@media only screen and (min-width: 750px){
+    .information{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+
+    .googlecal {
+        padding-bottom: 75%;
+    }
+
+    table.contents{
+        margin: 0 auto;
+        width: 670px
+    }    
+
+    
+}
+
+@media only screen and (min-width: 1100px) {
+
+    #introduce{
+        margin-left: 8%
+    } 
+}
+
+
+

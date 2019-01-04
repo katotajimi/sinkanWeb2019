@@ -1,0 +1,38 @@
+body{
+    background-image:url("../../background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:left;
+    margin-left:10%;
+    margin-right:10%;
+    width:80%;
+        background-attachment: fixed;
+
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #ff8c00;
+    text-align:center;
+}
+
+#photo{
+    text-align:center;
+
+}
+#photo img{
+width: 80%;
+max-width: 500px;
+
+}
+
+#row{
+   text-align:center;
+}
+
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}

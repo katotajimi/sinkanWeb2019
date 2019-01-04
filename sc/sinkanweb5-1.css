@@ -1,0 +1,90 @@
+body{
+    background-image:url("../background\ .jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    text-align:center;
+}
+
+#header{
+    font-size: x-large;
+    font-weight: bold;
+    color: #0e00b0;
+}
+
+#logo{
+    max-width: 700px;
+    width:75%;
+    margin-bottom: 10pt;
+}
+
+
+.title{
+    font-size: x-large;
+    font-weight: bold;
+    text-align:left;
+    background-color:#ffa07a;
+}
+
+.sub_title{
+    color: #FF0000;
+    text-decoration: underline;
+    font-size: 20px; 
+}
+
+.colam{
+    text-align:left;
+}
+
+#soudaimeeting{
+    width:80%;
+    max-width: 300px;
+}
+
+#opencampus{
+    width:80%;
+    max-width: 300px;
+}
+
+#Me-dia{
+    width:80%;
+    max-width: 300px;
+}
+
+#kyousai{
+    width:80%;
+    max-width: 300px;
+}
+
+#sinkan{
+    width:80%;
+    max-width: 450px;
+}
+
+.twitter{
+    text-align: center;
+    
+}
+
+div{
+    background-color: rgba(255,255,255,0.8);
+}
+
+@media only screen and (min-width: 600px){
+    
+    body{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+    }
+
+    .colam{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
